@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #202020;
+    color: antiquewhite;
+    transition: background 0.3s linear;
+}
+
+.fa-solid.fa-pen{
+    color: #2ebbeb !important;
+    font-size: 20px;
+    display: none;
+}
+
+.fa-solid.fa-trash-can{
+    color: #2ebbeb !important;
+    font-size: 20px;
+    display: none;
+}
+
+.fa-solid.fa-circle-check{
+    color: #2ebbeb !important;
+    font-size: 20px;
+    display: none;
+}
+
+.fa-solid.fa-circle-plus{
+    color: #2ebbeb !important;
+    font-size: 20px;
+    display: none;
+}
+
+hr{
+    color: #2ebbeb;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.banner-edit{
+    position: absolute;
+    left: calc(100% - 70px);
+    top: 15px;
+}
+
+.banner-edit-2{
+    position: absolute;
+    left: calc(100% - 40px);
+    top: 15px;
+}
+
+.banner-edit-perfil{
+    position: absolute;
+    left: calc(100% - 30px);
+    top: 40%;
+}
+
+.banner-edit-perfil-2{
+    position: absolute;
+    left: calc(100% - 30px);
+    top: 55%;
+}
+
+.parrafo-edit{
+    position: absolute;
+    left: calc(100% - 25px);
+}
+
+.parrafo-edit-2{
+    position: absolute;
+    left: calc(100% - 55px);
+}
+
+.parrafo-edit-3{
+    position: absolute;
+    left: calc(100% - 85px);
+}
+
+.banner-caja-edit{
+    position: relative;
+}
+
+.modo-claro {
+    background-color: antiquewhite;
+    color: #202020;
+}
+
+.img-banner{
+    width: 100%;
+    min-height: 190px;
+}
+
+.img-habil {
+    width: 100px;
+}
+
+.img-logo {
+    width: 150px;
+}
+
+.btn {
+    background-color: #fdb316;
+}
+
+.img-perfil {
+    width: 200px;
+}
+
+.img-proy{
+    width: 100%;
+    border-style: solid;
+    border-color: #2ebbeb;
+    border-radius: 3%;
+}
+
+.con-acerca {
+    position: relative;
+    top: -100px;
+    width: 90%;
+}
+
+.con-exp {
+    margin-top: 75px;
+    display: none;
+}
+
+.con-sec {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px){
+    .acerca-de{
+        padding-top: 110px;
+    }
+
+    .con-sec-proy{
+        width: 700px;
+    }
+}
